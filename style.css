@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.heroImg {
+    width: 24rem;
+}
+.coffeeContainer{
+  padding: 5rem 2rem;
+}
+
+@media (max-width: 992px) {
+  .heroImg {
+    width: 50%;
+  }
+
+
+  .coffeeContainer{
+  padding: 2rem 1rem;
+}
+}
+
+.thisSec{
+margin: 0 auto;
+/* min-width: 1440px; */
+background-color: brown;
+}
+.thisSecInner{
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: yellow;
+}
+.thisSec p:nth-child(odd){
+  background-color: aquamarine;
+  padding: 4rem 0;
+}
+
